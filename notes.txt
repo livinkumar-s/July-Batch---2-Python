@@ -1,0 +1,21 @@
+Python :
+----------
+It is high-level, interpreted, OOP programming language.
+
+Human written code(print, input...)
+|
+|Compilation
+|
+Byte code (common)
+|
+|interpretation(linr by line)
+|
+Machine code 
+
+Python file(.py) --> code --> execute the file
+Terminal --> python filename.py
+
+Print 
+----------
+>> To show a data at the output.
+Ex: print(data)
