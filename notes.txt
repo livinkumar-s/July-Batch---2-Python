@@ -19,3 +19,59 @@ Print
 ----------
 >> To show a data at the output.
 Ex: print(data)
+
+Input 
+------
+>> to prompt data from user.
+>> it always return string.
+Ex: input(defStr)
+
+Syntax:
+--------
+>> It is case-sensitive.
+>> Indentation matters.(whitespace before a line of code(to define a block of code))
+
+Comments 
+----------
+>> comments are ignored by python.
+>> It increases readability.
+# ---> single line comment
+''' ''' --> multi line comments
+
+Variables 
+---------
+>> named memory that stores a data.(dynamically typed)
+varName=data
+
+Naming Rules
+---------------
+>> can contain letters, numbers, _.
+>> cannot start with numeric.
+>> cannot be reserved keyword
+
+Datatypes 
+----------
+to find dat6atype of an object --> type(obj)
+Integer --> whole numbers. 2,1,3,0,-1,-2..
+Float --> decimal numbers. Ex: 1.0, 3.33...
+String --> Sequence of chars. '', "".
+concatination --> str1+str2 --> str1str2
+"It's me"
+'I am "Leo"'
+Boolean --> True, False
+
+Type casting 
+-------------
+int(obj)
+str(obj)
+float(obj)
+bool(obj)
+
+Operators 
+----------
+>> Symbol or keywords that performs operation on values.
+
+2 + 3 = 5
+
+Arithmetic Operators 
+-----------------------
