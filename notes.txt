@@ -73,5 +73,85 @@ Operators
 
 2 + 3 = 5
 
+decimal --> 0-9.
+binary --> 01 
+
+D      B
+--------------
+0   -   0
+1   -   1
+2   -   10
+3   -   11
+4   -   100
+5   -   101
+6   -   110
+7   -   111
+.
+.
+.
+999 -   ?
+
+bit --> smallest unit of memory
+1 byte --> 8 bits.
+
+
 Arithmetic Operators 
 -----------------------
++ --> Addition
+- --> Subtraction 
+* --> Mul 
+/ --> Div 
+// --> Floor Div 
+% --> Mod (Reminder) 55%3 --> 18*3 --> 54
+** --> Exponentiation
+
+BODMAS 
+
+Comparison Operators (Boolean Value)
+-----------------------
+== equal 
+!= not equal  
+< lesser than
+> greater than 
+<= lesser than or equal
+>= greater than or equal
+
+Logical Operators  Boolean --> Boolean 
+----------------------------------------
+and --> True --> Both are True. False --> Otherwise.
+or  --> True --> atleast 1 should be True.
+not --> inverts a bool
+
+Assignment Operator 
+---------------------
+= assign 
++= add and assign
+-= sub and assign
+*= mul and assign 
+/= div and assign
+//= floor div and assign 
+%= mod and assign 
+**= exponentiate and assign
+
+Bitwise operators
+--------------------
+And - & 
+Or - |
+Not - ~ (~n=-(n+1)) 
+X-or --> ^ 1--> not same. 0 --> same
+Right shift --> >>
+Left shift --> <<
+
+2's comp --> 1's comp + 1
+Binary Addition
+------------------
+00 --> 0
+10,01 --> 1
+11 --> 10
+111 --> 11
+
+Membership 
+-------------
+
+Identity 
+----------
