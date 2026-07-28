@@ -155,3 +155,46 @@ Membership
 
 Identity 
 ----------
+
+Control Flow Statements 
+------------------------
+>> Conditional Clause Statement 
+>> Looping Statement
+
+Conditional Clause
+-------------------
+if 
+----
+syntax:
+---------
+if cond:
+    block of code
+
+True --> execute the block. False --> skip.
+
+elif:
+-----
+syntax:
+----------
+elif condition:
+    block of code 
+
+True --> execute the block. False --> skip.
+
+else:
+---------
+Syntax:
+---------
+else:
+    block of code
+
+False --> execute the block. True --> skip.
+
+Nested If 
+----------------
+if cond1:
+    if cond2:
+        block of code
+
+Looping Statements
+--------------------
