@@ -156,6 +156,22 @@ Membership
 Identity 
 ----------
 
+Sequence
+----------
+>> Ordered collection of data. it can return its members 1 by 1.
+Ex: String, List, Tuple, Set, Dict, range...
+
+To find length of a seq --> len(seq)
+
+indexing
+---------
+index number starts from 0.
+Ex: a="World" a[3] --> 'l'
+negative indexing starets from -1
+
+slicing
+--------
+
 Control Flow Statements 
 ------------------------
 >> Conditional Clause Statement 
@@ -198,3 +214,37 @@ if cond1:
 
 Looping Statements
 --------------------
+while --> condition based loop
+for --> sequence based loop
+
+While (no of iteration not known)
+--------
+>> It is a condition based loop.
+
+Syntax:
+----------
+while condition:
+    block of code
+
+as long as the condition is True it will execute the block of code.
+
+For 
+-------
+>> It is a sequence based loop.
+>> iterates through a sequence.
+
+Syntax:
+--------
+for var in sequence:
+    block of code
+
+Range 
+------
+range(len) --> range(5) --> [0,1,2,3,4]
+range(start, end) --> range(4,14) --> [4,5,6....13]
+range(start, end, step) --> range(2,20,2) --> [2,4,6,8....18]
+
+Control Statements of loops 
+-----------------------------
+break --> stop the loop.
+continue --> skip the current iteration.
