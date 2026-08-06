@@ -156,10 +156,14 @@ Membership
 Identity 
 ----------
 
+Iterable Object 
+--------------------
+It is an object that can loop over using a for loop.
+
 Sequence
 ----------
 >> Ordered collection of data. it can return its members 1 by 1.
-Ex: String, List, Tuple, Set, Dict, range...
+Ex: String, List, Tuple, Dict, range...
 
 To find length of a seq --> len(seq)
 
@@ -171,6 +175,16 @@ negative indexing starets from -1
 
 slicing
 --------
+>> Extracting part of sequence.
+>> l1=[1,2,3,4,5,6] --> [4,5,6]
+(1,2,3,4,5) --> (2,3)
+"Hello" --> "Hell"
+
+Seq[start:]
+Seq[:end]
+Seq[start:end]
+Seq[start:end:step]
+Seq[::-1]
 
 Control Flow Statements 
 ------------------------
@@ -248,3 +262,56 @@ Control Statements of loops
 -----------------------------
 break --> stop the loop.
 continue --> skip the current iteration.
+
+Data Structure 
+----------------
+>> Collection of data.
+
+List 
+------
+>> [ele1,ele2.....]
+>> Ordered.
+>> Indexed.
+>> Mutable.
+>> Allows duplicates.
+
+In built methods 
+----------------
+.append(ele)
+.insert(pos,ele)
+.extend(iterObj) 
+
+.remove(ele)
+.pop(ind)
+.pop() #returns popped element
+
+.index(ele)
+.count(ele)
+
+.reverse()
+.sort()
+
+Tuple 
+------
+>> (ele1,ele2....)
+>> Ordered.
+>> Indexed.
+>> Immutable.
+>> Allows duplicates.
+
+In built Methods 
+--------------------
+.index(ele)
+.count(ele)
+
+Unpacking 
+-----------
+(List, Tuple)
+person=(1,2,3)
+a=person[0]
+b=person[1]
+c=person[2]
+a,b,c=person
+
+Set --> Unordered
+Dict
