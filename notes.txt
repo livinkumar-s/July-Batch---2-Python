@@ -342,3 +342,50 @@ In built methods
 .keys()
 .values()
 .items()
+
+Functions
+------------
+>> Reusable block of code.
+
+In built Functions ---> print, input, len......
+User defined Function ---> def...
+
+Syntax
+---------
+def fnName(p1,p2....):
+    block of code
+
+Calling --> fnName()
+
+Parameters and Arguments 
+-------------------------
+p --> it is variable created in function defenition without value.
+a --> values passed to parameters
+
+Types of Arguments and Parameters 
+-----------------------------------
+Positional Arguments 
+----------------------
+>> Order matters
+
+Keyword Arguments 
+---------------------
+>> pass arguments along with keywords.
+
+Default Parameter 
+------------------
+>> parameter created with default values
+
+Variable Length Argument 
+---------------------------
+>> *parameterName (Tuple)
+>> **parametername (Dict)
+>> it is used when you don't know the number opf arguments going to be passed.
+
+Return Keyword 
+---------------
+>> Stops a function.
+>> it returns a value to the caller.
+
+Scope 
+----------
