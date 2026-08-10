@@ -314,4 +314,31 @@ c=person[2]
 a,b,c=person
 
 Set --> Unordered
+------------------
+>>{ele1,ele2...}
+>>Unordered
+>>Mutable 
+>>No Duplicates.
+
+In built methods 
+--------------------
+.add(ele)
+.remove(ele)
+.union(set)
+.intersection(set)
+.difference(set)
+
 Dict
+------
+>> {key:ele1,key:ele2,.....}
+>> Ordered
+>> not indexed 
+>> Mutable 
+>> Allows dupliace values. keys should be unique.
+
+In built methods 
+-----------------
+.pop(key)
+.keys()
+.values()
+.items()

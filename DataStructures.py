@@ -53,4 +53,58 @@ t1="Hello World"
 # print(t1[:4])
 # print(t1[::-1])
 
-# 
+# Set 
+# s1={342,54,234,536,234,1,3,1,1,3}
+# print(s1[0])
+# s1.add(-1)
+# s1.add(-2)
+# s1.remove(342)
+# print(s1)
+
+# s1={2,1,3,4,5}
+# s2={3,4,5,-1,8,9,10}
+
+# print(s1.union(s2))
+# print(s1.difference(s2))
+# print(s2.difference(s1))
+
+# Dict 
+# person={
+#     "name":"Ben",
+#     "age":44,
+#     "isMarried":True,
+#     "favMovies":[24,96]
+# }
+
+# print(person["favMovies"][0])
+
+# print(person["age"])
+
+# person["age"]=45
+# person["role"]="FED"
+
+# person.pop("isMarried")
+
+# print(person.keys()) #dict_key
+# print(person.values()) #dict_values
+# print(person.items()) 
+
+# for i in person:
+#     print(person[i])
+
+l1=[
+    1,
+    2,
+    3,
+    [
+        "four",
+        "five",
+        [
+            "six",
+            "seven",
+            "eight"
+        ]
+    ]
+]
+
+print(l1[-1][-1][-1][-1])
