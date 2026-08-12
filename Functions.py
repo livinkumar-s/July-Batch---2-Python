@@ -57,9 +57,45 @@
 
 # a=input("Enter your name: ")
 
-def dummy():
-    a=10
-    print(a)
+# def dummy():
+#     a=10
+#     print(a)
 
-dummy()
-print(a)
+# dummy()
+# print(a)
+
+# Scopes 
+a=10
+
+# def dummy():
+    
+#     print(a)
+
+# dummy()
+# print(a)
+
+# def outer():
+#     print(a)
+#     def inner():
+#         a=10
+#         print("From inner")
+#         print(a)
+#     inner()
+
+# outer()
+
+
+# age=10
+
+# def inc():
+#     global age
+#     age+=1
+
+# inc()
+# inc()
+# inc()
+# inc()
+# inc()
+# inc()
+# inc()
+# print(age)

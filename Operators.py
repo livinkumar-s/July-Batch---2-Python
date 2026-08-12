@@ -57,3 +57,54 @@ b=3
 
 # print(~13)
 print(~60)
+
+
+
+
+# a=1
+# print(id(a))
+# a=2
+# print(id(a))
+
+# a="Hello"
+# # 10 <-- b
+# # a --> 11
+# b=a
+
+# a+="!"
+# print(a)
+# print(b)
+
+# print(id(a))
+# print(id(b))
+
+
+# a=[1,2,3]
+# b=a
+
+# # a --> List <-- b
+
+# a.append(10)
+
+# print(a)
+# print(b)
+
+# print(id(a))
+# print(id(b))
+
+# print(1==1)
+# print(1 is 1)
+
+# print(1==2)
+# print(1 is 2)
+
+# a=[1,2,3,4]
+# b=[1,2,3,4]
+
+# print(a is b)
+# print(a==b)
+
+# a=[1,2,3,4]
+
+# # print(10 not in a)
+# print("Hello" in "Hello world")

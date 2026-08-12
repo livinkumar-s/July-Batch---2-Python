@@ -152,9 +152,14 @@ Binary Addition
 
 Membership 
 -------------
+in, not in
 
 Identity 
 ----------
+is, is not 
+
+Mutable Objects --> List, Set, Dict. (No Reuse)
+Immutable ---> Int, Float, String, Tuple, Bool.(Reuse)
 
 Iterable Object 
 --------------------
@@ -389,3 +394,10 @@ Return Keyword
 
 Scope 
 ----------
+>> It means where a variable can be accessed.
+
+Local Scope ---> variable created in a function 
+Global Scope --> variables created outside any function.
+Enclosing Scope --> Occurs with nested function.
+Built in Scope --> will be accessible anywhere(print, input....)
+
