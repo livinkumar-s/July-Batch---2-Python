@@ -56,7 +56,7 @@ b=3
 # print(33<<2)
 
 # print(~13)
-print(~60)
+# print(~60)
 
 
 
@@ -108,3 +108,4 @@ print(~60)
 
 # # print(10 not in a)
 # print("Hello" in "Hello world")
+

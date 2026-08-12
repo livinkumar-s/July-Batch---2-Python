@@ -54,10 +54,39 @@ Datatypes
 to find dat6atype of an object --> type(obj)
 Integer --> whole numbers. 2,1,3,0,-1,-2..
 Float --> decimal numbers. Ex: 1.0, 3.33...
+
 String --> Sequence of chars. '', "".
+Operation:
 concatination --> str1+str2 --> str1str2
+repetition --> str*3
+
+immutable 
+ordered indexed
+
+In nuilt methods 
+-------------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.find(subStr)  -1 (not found)
+.count(subSub)
+
+.split(char)  str --> multiple parts..[]
+.join(iterObj)
+
+.isalpha()
+.isdigit()
+.isalnum()
+.
+.
+
+Formatted String --> f"  {var1}  {var2}"
+
 "It's me"
 'I am "Leo"'
+
 Boolean --> True, False
 
 Type casting 
@@ -400,4 +429,3 @@ Local Scope ---> variable created in a function
 Global Scope --> variables created outside any function.
 Enclosing Scope --> Occurs with nested function.
 Built in Scope --> will be accessible anywhere(print, input....)
-
