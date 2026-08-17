@@ -429,3 +429,34 @@ Local Scope ---> variable created in a function
 Global Scope --> variables created outside any function.
 Enclosing Scope --> Occurs with nested function.
 Built in Scope --> will be accessible anywhere(print, input....)
+
+File Handling 
+---------------
+>> Using python to create, open, read, write and modify a file.
+Ex: .txt, .csv, .json, binary....
+
+To open a file --> open(path, mode)
+
+In built Methods
+----------------
+.read()
+.readline()
+.readlines()
+.tell()
+.seek(pos)
+
+.write(content)
+.writable()
+
+.close()
+
+Modes 
+-----
+Read --> "r"
+Write --> "w" (Over write) (create)
+Append --> "a" (create)
+Create --> "x"
+
+with open() as varName:
+    block of code
+
