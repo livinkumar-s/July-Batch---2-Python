@@ -4,11 +4,11 @@ It is high-level, interpreted, OOP programming language.
 
 Human written code(print, input...)
 |
-|Compilation
+|Compilation (Syntax Errors)
 |
 Byte code (common)
 |
-|interpretation(linr by line)
+|interpretation(line by line)
 |
 Machine code 
 
@@ -458,5 +458,30 @@ Append --> "a" (create)
 Create --> "x"
 
 with open() as varName:
+    block of code
+
+Errors 
+---------
+>> Errors are problems that stop code from running properly.
+
+Syntax Errors 
+--------------
+>> when you make errors with syntax.
+Ex: SyntaxError, IndentationError.
+
+Runtime Errors (Exceptions)
+---------------
+>> These errors are caught during the runtime.
+Ex: TypeError,ValueError,ZeroDivisionError...
+
+Exception Handling 
+--------------------
+try:
+    block of code
+except Name:
+    handling block
+.
+.
+finally:
     block of code
 
