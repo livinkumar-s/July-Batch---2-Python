@@ -63,7 +63,7 @@ repetition --> str*3
 immutable 
 ordered indexed
 
-In nuilt methods 
+In built methods 
 -------------------
 .upper()
 .lower()
@@ -485,3 +485,58 @@ except Name:
 finally:
     block of code
 
+
+OOP - Object Oriented Programming 
+----------------------------------
+>> It is a programming pattern that organizes the code using class and objects.
+
+Object ---> Real time entity.
+
+object --> information --> functionalities.
+           (attribute)     (method)
+
+Blueprint --> Objects
+class ---> instances(objects) obj1,obj2........
+
+Class 
+--------
+syntax 
+--------
+class Classname:
+    class __init__(self):
+        attribute defenition 
+    
+    attributes and methods
+
+Instances(Objects)
+--------------------
+Clsname()
+
+Attributes 
+------------
+Instance attributes ---> it can be accessible only from instances
+Class attributes --> it can be accessible from both class and objects.
+
+Methods 
+--------
+Instance Method --> when you wanna use instance attributes. (self)
+
+Class Method --->  when you wanna use class attributes. @classmethod (cls)
+
+Static Method --> @staticmethod
+
+Self 
+-----
+>> it refers to the own object.
+
+PIP --> package manager of Python 
+-------------------------------------
+install a package --> pip install packagename
+uninstall a package --> pip uninstall packagename 
+
+Pillairs Of OOP 
+------------------
+Abstraction 
+Poly 
+Encapsulation 
+Inheritance
